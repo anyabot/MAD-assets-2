@@ -40,6 +40,7 @@
   "30_overlay/30_T5",
   "30_overlay/30_T6",
   "30_overlay/30_twinkle",
+  "30_overlay/30_twinkle_drag",
   "lobby/10_after_idle",
   "lobby/10_after_touch",
   "lobby/10_idle",
@@ -81,7 +82,8 @@
    "30_overlay/30_stocking_leg_L",
    "30_overlay/30_stocking_leg_R",
    "30_overlay/30_stocking_leg_R2",
-   "30_overlay/30_twinkle"
+   "30_overlay/30_twinkle",
+   "30_overlay/30_twinkle_drag"
   ],
   "lobby": [
    "lobby/10_after_idle",
@@ -95,15 +97,15 @@
   "default"
  ],
  "spineVersion": "4.2.37",
- "skeletonHash": "5112d3a82e18c79d",
+ "skeletonHash": "6f7c8108-7c1634a6",
  "bounds": {
   "x": -3840.4666,
   "y": -2406.3354,
   "width": 7686,
   "height": 4806
  },
- "slots": 230,
- "bones": 259,
+ "slots": 232,
+ "bones": 262,
  "events": [
   "cam_off",
   "cam_on"
@@ -138,6 +140,7 @@
   "body_shirt",
   "body_upper",
   "branch",
+  "circle",
   "close_eye",
   "cloth_1",
   "cloth_1_2",

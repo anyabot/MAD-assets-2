@@ -1,0 +1,209 @@
+{
+ "skin": "st_sc0202",
+ "kind": "standing",
+ "character": "SC0202",
+ "store": "onestore",
+ "skel": "ST_SC0202.skel",
+ "atlas": "ST_SC0202.atlas",
+ "textures": [
+  "ST_SC0202.png"
+ ],
+ "animations": [
+  "00_idle_normal",
+  "01_anger",
+  "01_happy",
+  "01_sad",
+  "01_smile"
+ ],
+ "animationGroups": {
+  "00": [
+   "00_idle_normal"
+  ],
+  "01": [
+   "01_anger",
+   "01_happy",
+   "01_sad",
+   "01_smile"
+  ]
+ },
+ "faceAnimations": [
+  "01_anger",
+  "01_happy",
+  "01_sad",
+  "01_smile"
+ ],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "-2dde0c8e-6b6ef374",
+ "bounds": {
+  "x": -1510.52,
+  "y": -259.0443,
+  "width": 3339.6682,
+  "height": 7271.8682
+ },
+ "slots": 96,
+ "bones": 184,
+ "events": [],
+ "attachments": [
+  "arm_L_lower",
+  "arm_L_upper",
+  "arm_R_under",
+  "arm_R_upper",
+  "body",
+  "body_shadow",
+  "cape_L",
+  "cape_R",
+  "cape_acc_L",
+  "cape_acc_R",
+  "cape_acc_rope",
+  "cape_center",
+  "cape_shadow",
+  "cape_shoulder_L",
+  "cape_shoulder_R",
+  "collar",
+  "collar_cover",
+  "collar_ribbon",
+  "corset_wing_L_1",
+  "corset_wing_L_2",
+  "corset_wing_R_1",
+  "corset_wing_R_2",
+  "ear_L",
+  "ear_R",
+  "effect_anger",
+  "face",
+  "face_shadow_1",
+  "face_shadow_2",
+  "face_shadow_3",
+  "finger_L_1_fornt",
+  "finger_L_2_back",
+  "finger_L_2_front",
+  "finger_L_345_back",
+  "finger_L_345_front",
+  "finger_L_back",
+  "finger_R_1",
+  "finger_R_2_back",
+  "finger_R_2_front",
+  "finger_R_345_back",
+  "finger_R_345_front",
+  "flush_anger",
+  "flush_happy",
+  "flush_sad",
+  "flush_smile",
+  "hair_back",
+  "hair_back_shadow",
+  "hair_front_L",
+  "hair_front_R",
+  "hair_front_c_1",
+  "hair_front_c_2",
+  "hair_side_L",
+  "hair_side_R",
+  "hair_top_L_front",
+  "hair_top_R_back",
+  "hair_top_R_front",
+  "hairband",
+  "haircurl_L_1_back",
+  "haircurl_L_1_front",
+  "haircurl_L_2_back",
+  "haircurl_L_2_front",
+  "haircurl_L_3_back",
+  "haircurl_L_3_front",
+  "haircurl_L_4",
+  "haircurl_R_1_back",
+  "haircurl_R_2_back",
+  "haircurl_R_2_front",
+  "haircurl_R_3",
+  "haircurll_R_1_front",
+  "hand_L",
+  "hand_R",
+  "leg_L",
+  "leg_L_occlusion",
+  "leg_L_shadow",
+  "leg_R",
+  "leg_R_shadow",
+  "mouth_anger",
+  "mouth_default",
+  "mouth_happy",
+  "mouth_sad",
+  "mouth_smile",
+  "neck",
+  "nose",
+  "pelvis",
+  "skirt_1",
+  "skirt_2",
+  "skirt_2_back",
+  "skit_1_shadow_1",
+  "skit_1_shadow_2",
+  "sleeve_L_back",
+  "sleeve_L_front",
+  "sleeve_R_back",
+  "sleeve_R_front",
+  "stick",
+  "stick_IK",
+  "stick_grip",
+  "stick_grip_IK",
+  "sweat_anger",
+  "tears_sad_L_1",
+  "tears_sad_L_2",
+  "tears_sad_L_3",
+  "tears_sad_R_1",
+  "tears_sad_R_2",
+  "tears_sad_R_3",
+  "wrist_L",
+  "wrist_R"
+ ],
+ "censorship": {
+  "uncensored": [],
+  "censored": []
+ },
+ "actor": {
+  "idle": "00_idle_normal",
+  "boring": null,
+  "active": null,
+  "faceBone": "face",
+  "mouthBone": "mouth",
+  "heightType": 1,
+  "actorType": 0,
+  "pivot": {
+   "x": 1.7482534646987915,
+   "y": 63.25104904174805
+  },
+  "phases": [
+   {
+    "idle": "00_idle_normal",
+    "boring": null,
+    "active": null
+   }
+  ],
+  "volumeProfiles": []
+ },
+ "sequences": [],
+ "touch": {
+  "boxes": [],
+  "jigglers": [],
+  "regions": [],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 23.920000076293945,
+  "cutsceneOffsets": [],
+  "camera": {
+   "verticalFov": null,
+   "nearClip": null,
+   "farClip": null
+  },
+  "postProcessors": [
+   {
+    "type": "",
+    "enabled": false
+   }
+  ]
+ }
+}

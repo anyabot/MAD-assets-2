@@ -24,7 +24,7 @@ arrow
 bounds:4039,1037,55,105
 offsets:7,15,70,124
 bg 2
-bounds:117,1954,12,8
+bounds:366,1954,12,8
 blush
 bounds:441,114,178,203
 offsets:3,2,181,205
@@ -41,6 +41,9 @@ bounds:1634,1085,476,381
 rotate:90
 branch
 bounds:1274,2,533,377
+circle
+bounds:15,1904,58,58
+offsets:6,6,70,70
 close_eye
 bounds:1182,982,153,167
 cloth_1
@@ -153,7 +156,7 @@ offsets:77,31,154,204
 hair_mL
 bounds:3441,114,123,259
 hair_mL shadow
-bounds:3466,1923,14,39
+bounds:3685,1923,14,39
 hair_mR
 bounds:2888,207,269,131
 hair_side_L
@@ -283,23 +286,23 @@ bounds:1517,1919,38,43
 mouth_o
 bounds:382,1929,32,33
 mouth_sad
-bounds:2500,1927,33,35
+bounds:3466,1927,33,35
 offsets:1,0,34,35
 mouth_sad_2
-bounds:82,1927,34,35
+bounds:2498,1927,34,35
 mouth_serious
-bounds:3213,1934,27,28
+bounds:75,1934,27,28
 mouth_shy
 bounds:1987,1922,37,40
 offsets:0,0,37,41
 mouth_smile
-bounds:11,1921,38,41
+bounds:3216,1921,38,41
 neck
 bounds:1956,1409,166,139
 neck_kara
 bounds:1934,716,101,126
 neck_kara_shirt
-bounds:2,1865,80,97
+bounds:2389,1091,80,97
 nose
 bounds:2,1300,78,69
 oppai_areola_L
@@ -318,7 +321,7 @@ oppai_nipple_shadow_L
 bounds:416,1936,26,26
 offsets:218,0,244,334
 oppai_nipple_shadow_R
-bounds:715,1944,31,18
+bounds:104,1944,31,18
 offsets:0,316,244,334
 oppai_rope
 bounds:2799,1089,518,496
@@ -405,7 +408,7 @@ stocking_rip3
 bounds:1694,176,153,176
 offsets:215,0,368,760
 sweat
-bounds:1468,1942,20,20
+bounds:711,1942,20,20
 tear_1_sad
 bounds:3206,1257,132,143
 tear_2_sad
@@ -414,7 +417,7 @@ trap_shadow
 bounds:223,129,297,230
 rotate:180
 twinkle
-bounds:366,1948,13,14
+bounds:730,1948,13,14
 offsets:2,2,17,17
 twintail_L
 bounds:693,421,220,409
@@ -472,11 +475,11 @@ upper_grass3_4
 bounds:442,1895,78,67
 offsets:425,233,770,870
 water_drop
-bounds:1898,1943,45,19
+bounds:1438,1943,45,19
 water_drop_1
 bounds:303,1949,27,13
 water_drop_2
-bounds:1487,1934,23,28
+bounds:1482,1934,23,28
 offsets:0,0,32,36
 water_drop_3
 bounds:896,1379,155,89
@@ -484,4 +487,4 @@ offsets:0,1,155,90
 water_drop_4
 bounds:2170,1828,78,69
 water_drop_5
-bounds:2320,1939,21,23
+bounds:1920,1939,21,23
