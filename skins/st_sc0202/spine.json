@@ -201,8 +201,14 @@
   },
   "postProcessors": [
    {
-    "type": "",
-    "enabled": false
+    "type": "RenderTextureStandingSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 1.0
+    }
    }
   ]
  }

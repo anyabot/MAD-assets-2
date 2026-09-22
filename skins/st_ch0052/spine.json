@@ -10,6 +10,7 @@
  ],
  "animations": [
   "00_active",
+  "00_breast_touch",
   "00_idle_boring",
   "00_idle_normal",
   "01_anger",
@@ -37,6 +38,7 @@
   ],
   "00": [
    "00_active",
+   "00_breast_touch",
    "00_idle_boring",
    "00_idle_normal"
   ],
@@ -75,15 +77,15 @@
   "default"
  ],
  "spineVersion": "4.2.37",
- "skeletonHash": "-13b78ac32f646ca",
+ "skeletonHash": "-4ea846456e2d7605",
  "bounds": {
-  "x": -2952.7517,
-  "y": -17.6444,
+  "x": -2962.3928,
+  "y": -21.0072,
   "width": 4623.939,
-  "height": 5479.8398
+  "height": 5296.3564
  },
- "slots": 118,
- "bones": 395,
+ "slots": 121,
+ "bones": 398,
  "events": [],
  "attachments": [
   "ahoge",
@@ -91,6 +93,7 @@
   "apron_up",
   "arm_L_hand",
   "arm_L_lower",
+  "arm_L_lower2",
   "arm_L_lower_sleeve_1",
   "arm_L_lower_sleeve_2",
   "arm_L_upper",
@@ -121,6 +124,7 @@
   "bhair07",
   "bhair08",
   "blush",
+  "blush2",
   "blush_shy",
   "body",
   "body_shadow",
@@ -296,7 +300,8 @@
     "code": "breast",
     "side": null,
     "state": null,
-    "effect": "generic"
+    "effect": "region",
+    "clip": "00_breast_touch"
    },
    {
     "box": "bd_face",
@@ -356,6 +361,13 @@
     "category": {
      "fileId": 3,
      "pathId": -2924366971628282093
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 3,
+     "pathId": 729932147130953955
     },
     "samples": []
    }

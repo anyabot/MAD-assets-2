@@ -3,7 +3,7 @@ size:2048,2048
 filter:Linear,Linear
 scale:0.45
 ahoge
-bounds:1715,152,164,150
+bounds:1148,134,164,150
 apron_down
 bounds:223,1762,247,284
 rotate:180
@@ -11,9 +11,12 @@ apron_up
 bounds:38,549,406,360
 rotate:180
 arm_L_hand
-bounds:631,172,182,151
+bounds:1334,186,182,151
 arm_L_lower
 bounds:1039,910,131,312
+rotate:90
+arm_L_lower2
+bounds:1208,341,131,312
 rotate:90
 arm_L_lower_sleeve_1
 bounds:286,488,276,253
@@ -33,7 +36,7 @@ bounds:455,1939,84,107
 arm_R_hand_2
 bounds:824,1813,107,95
 arm_R_hand_3
-bounds:957,216,163,123
+bounds:270,225,163,123
 offsets:0,0,163,125
 arm_R_hand_paper
 bounds:234,1608,174,153
@@ -52,7 +55,7 @@ arm_R_upper_shadow
 bounds:1551,1275,85,51
 offsets:1,5,86,56
 belt
-bounds:1528,272,271,96
+bounds:1502,287,271,96
 bhair01
 bounds:680,1544,269,296
 offsets:0,60,270,356
@@ -62,10 +65,10 @@ bounds:115,774,377,653
 offsets:0,0,393,653
 rotate:90
 bhair03
-bounds:1734,71,295,312
-rotate:90
+bounds:65,97,295,312
+rotate:270
 bhair04
-bounds:1121,195,215,503
+bounds:249,177,215,503
 offsets:0,0,230,553
 rotate:270
 bhair05
@@ -82,7 +85,10 @@ bhair08
 bounds:478,370,207,432
 rotate:90
 blush
-bounds:164,229,239,146
+bounds:992,187,239,146
+offsets:16,13,266,166
+blush2
+bounds:1759,188,239,146
 offsets:16,13,266,166
 blush_shy
 bounds:2,279,238,140
@@ -92,7 +98,7 @@ bounds:945,1425,340,621
 offsets:7,1,347,622
 rotate:180
 body_shadow
-bounds:394,85,270,145
+bounds:313,52,270,145
 offsets:16,0,318,150
 close_eye
 bounds:1612,1860,107,51
@@ -114,10 +120,10 @@ bounds:555,1547,50,54
 eye_hitomi_surprised
 bounds:1382,1995,50,51
 eye_patch
-bounds:1529,59,231,171
-rotate:90
+bounds:559,200,231,171
+rotate:180
 eye_patch_shadow
-bounds:722,47,230,171
+bounds:781,53,230,171
 eye_sad2
 bounds:941,1984,59,62
 eyebrow_idle
@@ -198,7 +204,7 @@ lab_coat_R_1
 bounds:174,1381,665,823
 rotate:90
 lab_coat_R_2
-bounds:1405,155,123,183
+bounds:1923,161,123,183
 offsets:0,0,127,183
 lab_coat_back
 bounds:1253,1424,622,471
@@ -280,7 +286,7 @@ potion_2_light
 bounds:193,1262,70,122
 offsets:1,1,75,123
 potion_2_line
-bounds:85,192,202,696
+bounds:442,178,202,696
 rotate:90
 potion_2_liquid
 bounds:236,904,226,196
@@ -307,7 +313,7 @@ potion_4_light
 bounds:199,1933,23,113
 offsets:0,7,25,124
 potion_4_line
-bounds:1552,39,146,494
+bounds:1001,71,146,494
 offsets:0,0,148,494
 rotate:90
 potion_4_liquid
@@ -350,7 +356,7 @@ bounds:2,2009,13,37
 sweat_fear
 bounds:1819,1951,76,95
 weapon_1
-bounds:879,72,469,219
+bounds:1577,92,469,219
 weapon_2
 bounds:1084,512,344,712
 offsets:0,755,639,1467
@@ -359,7 +365,8 @@ weapon_3
 bounds:31,852,536,547
 offsets:100,0,636,1026
 weapon_3_dup01
-bounds:2,45,431,209
+bounds:1490,51,431,209
+rotate:180
 weapon_4
 bounds:1042,285,349,210
 offsets:173,130,636,1026

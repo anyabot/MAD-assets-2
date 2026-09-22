@@ -95,7 +95,7 @@
   "default"
  ],
  "spineVersion": "4.2.37",
- "skeletonHash": "3a7273b2eda5917",
+ "skeletonHash": "36075eca517b14b1",
  "bounds": {
   "x": -2750.1995,
   "y": -1878.3303,
@@ -402,7 +402,7 @@
   "cutsceneOffsets": [
    {
     "category": {
-     "fileId": 2,
+     "fileId": 3,
      "pathId": -1448471105419328718
     },
     "samples": [

@@ -340,34 +340,7 @@
   ],
   "volumeProfiles": []
  },
- "sequences": [
-  {
-   "animation": "10_basic/10_enter",
-   "cues": [
-    {
-     "time": 0.0,
-     "events": [
-      {
-       "type": "SpawnFxEvent",
-       "bone": "root",
-       "offset": {
-        "x": 0.0,
-        "y": 0.0
-       },
-       "prefab": {
-        "guid": "39844f634cc3cf44887b0e68d4b8a1f5",
-        "subObject": null,
-        "subObjectType": null
-       },
-       "ignoreTimeScale": false,
-       "followRotate": false,
-       "followScale": false
-      }
-     ]
-    }
-   ]
-  }
- ],
+ "sequences": [],
  "touch": {
   "boxes": [
    "bd_breast",
@@ -499,7 +472,7 @@
   "cutsceneOffsets": [
    {
     "category": {
-     "fileId": 2,
+     "fileId": 3,
      "pathId": -1448471105419328718
     },
     "samples": [
@@ -511,6 +484,15 @@
       },
       "rotation": 0.0,
       "scale": 0.75
+     },
+     {
+      "aspect": 1.7781155109405518,
+      "position": {
+       "x": 45.4438362121582,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 1.0
      },
      {
       "aspect": 2.1666667461395264,

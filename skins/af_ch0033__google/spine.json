@@ -93,7 +93,7 @@
   "default"
  ],
  "spineVersion": "4.2.37",
- "skeletonHash": "4a27ed8f1b1ae80d",
+ "skeletonHash": "68a18c475c3b7a43",
  "bounds": {
   "x": -3059.2502,
   "y": -2780.5562,
@@ -479,34 +479,7 @@
   ],
   "volumeProfiles": []
  },
- "sequences": [
-  {
-   "animation": "basic/10_enter",
-   "cues": [
-    {
-     "time": 0.0,
-     "events": [
-      {
-       "type": "SpawnFxEvent",
-       "bone": "root",
-       "offset": {
-        "x": 0.0,
-        "y": 0.0
-       },
-       "prefab": {
-        "guid": "3d54c1b1227814146b1eb9c74fb33d6f",
-        "subObject": null,
-        "subObjectType": null
-       },
-       "ignoreTimeScale": false,
-       "followRotate": false,
-       "followScale": false
-      }
-     ]
-    }
-   ]
-  }
- ],
+ "sequences": [],
  "touch": {
   "boxes": [
    "bd_BG",
@@ -598,7 +571,7 @@
   "cutsceneOffsets": [
    {
     "category": {
-     "fileId": 3,
+     "fileId": 4,
      "pathId": -1448471105419328718
     },
     "samples": [
@@ -608,14 +581,32 @@
        "x": 0.0,
        "y": 0.0
       },
+      "rotation": 10.0,
+      "scale": 0.699999988079071
+     },
+     {
+      "aspect": 1.3333333730697632,
+      "position": {
+       "x": 60.0,
+       "y": 20.0
+      },
+      "rotation": 4.449505805969238,
+      "scale": 0.800000011920929
+     },
+     {
+      "aspect": 1.600547194480896,
+      "position": {
+       "x": 0.0,
+       "y": 60.0
+      },
       "rotation": 0.0,
-      "scale": 0.75
+      "scale": 1.0
      },
      {
       "aspect": 1.7781155109405518,
       "position": {
-       "x": 12.100000381469727,
-       "y": 99.12000274658203
+       "x": 0.0,
+       "y": 100.0
       },
       "rotation": 0.0,
       "scale": 1.0
@@ -623,8 +614,8 @@
      {
       "aspect": 2.1666667461395264,
       "position": {
-       "x": -211.4490966796875,
-       "y": 0.0
+       "x": -210.0,
+       "y": 50.0
       },
       "rotation": 0.0,
       "scale": 1.0

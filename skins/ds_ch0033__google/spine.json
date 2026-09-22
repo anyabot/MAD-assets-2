@@ -550,22 +550,6 @@
        "ignoreTimeScale": false,
        "followRotate": false,
        "followScale": false
-      },
-      {
-       "type": "SpawnFxEvent",
-       "bone": "root",
-       "offset": {
-        "x": 0.0,
-        "y": 0.0
-       },
-       "prefab": {
-        "guid": "cf5a304d17e9c564bbda71ffee0d7577",
-        "subObject": null,
-        "subObjectType": null
-       },
-       "ignoreTimeScale": false,
-       "followRotate": false,
-       "followScale": false
       }
      ]
     }
@@ -663,7 +647,7 @@
   "cutsceneOffsets": [
    {
     "category": {
-     "fileId": 3,
+     "fileId": 4,
      "pathId": -1448471105419328718
     },
     "samples": [
