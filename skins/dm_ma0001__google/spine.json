@@ -1,0 +1,106 @@
+{
+ "skin": "dm_ma0001",
+ "kind": "drama",
+ "character": "DM_0001",
+ "store": "google",
+ "textures": [
+  "DM_MA0001.png",
+  "DM_MA0001_Mod_01.png"
+ ],
+ "animations": [],
+ "animationGroups": {},
+ "faceAnimations": [],
+ "attachments": [],
+ "censorship": {
+  "uncensored": [],
+  "censored": []
+ },
+ "static": {
+  "image": "DM_MA0001.png",
+  "variants": [
+   "DM_MA0001_Mod_01.png"
+  ]
+ },
+ "actor": {
+  "actorType": 5,
+  "volumeProfiles": []
+ },
+ "world": {
+  "ppu": 100.0,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -1448471105419328718
+    },
+    "samples": [
+     {
+      "aspect": 1.0,
+      "position": {
+       "x": 0.0,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 0.9900000095367432
+     },
+     {
+      "aspect": 1.600547194480896,
+      "position": {
+       "x": -0.24193471670150757,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 0.9694098234176636
+     },
+     {
+      "aspect": 2.1666667461395264,
+      "position": {
+       "x": -0.4699999988079071,
+       "y": -0.14000000059604645
+      },
+      "rotation": 0.0,
+      "scale": 0.949999988079071
+     },
+     {
+      "aspect": 2.777777671813965,
+      "position": {
+       "x": -0.17000000178813934,
+       "y": -0.15000000596046448
+      },
+      "rotation": 0.0,
+      "scale": 0.9700000286102295
+     },
+     {
+      "aspect": 2.779886245727539,
+      "position": {
+       "x": 0.0,
+       "y": 0.7799999713897705
+      },
+      "rotation": 0.0,
+      "scale": 0.6800000071525574
+     }
+    ]
+   }
+  ],
+  "postProcessors": [
+   {
+    "type": "RenderTextureCutsceneSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "overlay": {
+     "texture": "postprocess_overlay_Silhouette.png",
+     "source": "Silhouette"
+    },
+    "background": {
+     "texture": "postprocess_background_Box_White.png",
+     "source": "Box_White"
+    }
+   }
+  ]
+ }
+}

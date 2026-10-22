@@ -1,0 +1,113 @@
+{
+ "skin": "st_sc3012",
+ "kind": "standing",
+ "character": "SC3012",
+ "store": "onestore",
+ "skel": "ST_SC3012.skel",
+ "atlas": "ST_SC3012.atlas",
+ "textures": [
+  "ST_SC3012.png"
+ ],
+ "animations": [
+  "00_idle",
+  "01_closeeye",
+  "01_embarrassed",
+  "01_smile"
+ ],
+ "animationGroups": {
+  "00": [
+   "00_idle"
+  ],
+  "01": [
+   "01_closeeye",
+   "01_embarrassed",
+   "01_smile"
+  ]
+ },
+ "faceAnimations": [
+  "01_closeeye",
+  "01_embarrassed",
+  "01_smile"
+ ],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "11f8c654-71f53e05",
+ "bounds": {
+  "x": -1863.5199,
+  "y": -562.4073,
+  "width": 3718.6172,
+  "height": 4393.1304
+ },
+ "slots": 5,
+ "bones": 25,
+ "events": [],
+ "attachments": [
+  "slime",
+  "slime_ear",
+  "slime_eyes_1",
+  "slime_eyes_2",
+  "slime_eyes_3",
+  "slime_eyes_4"
+ ],
+ "censorship": {
+  "uncensored": [],
+  "censored": []
+ },
+ "actor": {
+  "idle": "00_idle",
+  "boring": "00_idle_boring",
+  "active": "00_active",
+  "faceBone": "face",
+  "mouthBone": "mouth",
+  "heightType": -1,
+  "actorType": 0,
+  "pivot": {
+   "x": 1.1210616827011108,
+   "y": 30.0
+  },
+  "phases": [
+   {
+    "idle": "00_idle",
+    "boring": "00_idle_boring",
+    "active": "00_active"
+   }
+  ],
+  "volumeProfiles": []
+ },
+ "sequences": [],
+ "touch": {
+  "boxes": [],
+  "jigglers": [],
+  "regions": [],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 16.0,
+  "cutsceneOffsets": [],
+  "camera": {
+   "verticalFov": null,
+   "nearClip": null,
+   "farClip": null
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureStandingSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 1.0
+    }
+   }
+  ]
+ }
+}
