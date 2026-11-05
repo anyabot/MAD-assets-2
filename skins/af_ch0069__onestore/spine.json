@@ -1,0 +1,497 @@
+{
+ "skin": "af_ch0069",
+ "kind": "affection",
+ "character": "CH0069",
+ "store": "onestore",
+ "skel": "AF_CH0069.skel",
+ "atlas": "AF_CH0069.atlas",
+ "textures": [
+  "AF_CH0069.png"
+ ],
+ "animations": [
+  "asmr/ani_01",
+  "asmr/ani_02",
+  "asmr/ani_03",
+  "asmr/ani_04",
+  "asmr/ani_05",
+  "asmr/ani_06",
+  "asmr/ani_07",
+  "asmr/loop_01",
+  "asmr/loop_02",
+  "asmr/loop_03",
+  "asmr/loop_04",
+  "asmr/loop_05",
+  "asmr/loop_06",
+  "basic/basic",
+  "basic/enter",
+  "basic/idle_01",
+  "basic/idle_01_touch",
+  "basic/idle_02",
+  "basic/idle_02_touch",
+  "mouth/mouth_A",
+  "[Backup]/000"
+ ],
+ "animationGroups": {
+  "[Backup]": [
+   "[Backup]/000"
+  ],
+  "asmr": [
+   "asmr/ani_01",
+   "asmr/ani_02",
+   "asmr/ani_03",
+   "asmr/ani_04",
+   "asmr/ani_05",
+   "asmr/ani_06",
+   "asmr/ani_07",
+   "asmr/loop_01",
+   "asmr/loop_02",
+   "asmr/loop_03",
+   "asmr/loop_04",
+   "asmr/loop_05",
+   "asmr/loop_06"
+  ],
+  "basic": [
+   "basic/basic",
+   "basic/enter",
+   "basic/idle_01",
+   "basic/idle_01_touch",
+   "basic/idle_02",
+   "basic/idle_02_touch"
+  ],
+  "mouth": [
+   "mouth/mouth_A"
+  ]
+ },
+ "faceAnimations": [
+  "mouth/mouth_A"
+ ],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "-1ee24f174b3f323b",
+ "bounds": {
+  "x": -2419.8701,
+  "y": -1661.845,
+  "width": 4830.4678,
+  "height": 3235.8755
+ },
+ "slots": 176,
+ "bones": 298,
+ "events": [
+  "mouth_off",
+  "mouth_on",
+  "VOC/voc_ch0069_affection_view_1",
+  "VOC/voc_ch0069_affection_view_2",
+  "VOC/voc_ch0069_affection_view_3",
+  "VOC/voc_ch0069_affection_view_4",
+  "VOC/voc_ch0069_affection_view_5",
+  "VOC/voc_ch0069_affection_view_6",
+  "VOC/voc_ch0069_affection_view_7",
+  "VOC/voc_ch0069_affection_view_8",
+  "VOC/voc_ch0069_affection_view_9",
+  "VOC/voc_ch0069_affection_view_10",
+  "VOC/voc_ch0069_affection_view_11",
+  "VOC/voc_ch0069_affection_view_12",
+  "VOC/voc_ch0069_affection_view_13",
+  "VOC/voc_ch0069_affection_view_14",
+  "VOC/voc_ch0069_affection_view_15",
+  "VOC/voc_ch0069_affection_view_16",
+  "VOC/voc_ch0069_affection_view_17",
+  "VOC/voc_ch0069_affection_view_18",
+  "VOC/voc_ch0069_affection_view_19",
+  "VOC/voc_ch0069_affection_view_20",
+  "VOC/voc_ch0069_affection_view_21",
+  "VOC/voc_ch0069_affection_view_22",
+  "VOC/voc_ch0069_affection_view_23",
+  "VOC/voc_ch0069_affection_view_24",
+  "VOC/voc_ch0069_affection_view_25",
+  "VOC/voc_ch0069_affection_view_26",
+  "VOC/voc_ch0069_affection_view_27"
+ ],
+ "attachments": [
+  "arm_L_shadow",
+  "arm_L_upper",
+  "arm_R_shadow",
+  "arm_R_upper",
+  "arm_lower_L",
+  "arm_lower_R",
+  "armpit_L",
+  "armpit_R",
+  "back_hair",
+  "back_hair_bun",
+  "bd_breast_L",
+  "bd_breast_R",
+  "bd_breast_R2",
+  "bd_ch",
+  "bd_leg_L",
+  "bd_leg_R",
+  "bd_vagina",
+  "bell_L_1",
+  "bell_L_2",
+  "bell_L_ring",
+  "bell_R",
+  "blush",
+  "blush_banter",
+  "blush_passion",
+  "body_shadow",
+  "body_upper",
+  "breast_L",
+  "breast_R",
+  "breast_R_2_1",
+  "breast_R_2_2",
+  "breast_R_2_2_cover",
+  "breast_R_2_3",
+  "breast_R_2_4",
+  "breast_R_2_5",
+  "breast_R_shadow",
+  "breast_nipple_L_UNCEN",
+  "breast_nipple_R_UNCEN",
+  "ear_L",
+  "ear_R",
+  "eye_HL_L",
+  "eye_HL_R",
+  "eye_L_close",
+  "eye_L_default",
+  "eye_R_close",
+  "eye_R_default",
+  "eye_crystal_L",
+  "eye_crystal_R",
+  "eye_iris_L",
+  "eye_iris_R",
+  "eye_lower_L_default",
+  "eye_lower_R_default",
+  "eye_under_L_close",
+  "eye_under_L_default",
+  "eye_under_R_close",
+  "eye_under_R_default",
+  "eyebrow_tender",
+  "eyebrow_tender_cover",
+  "eyelid_L_close",
+  "eyelid_L_default",
+  "eyelid_R_close",
+  "eyelid_R_default",
+  "face",
+  "face_dot",
+  "face_shadow",
+  "finger_2_1",
+  "finger_3_1",
+  "finger_4_1",
+  "finger_5_1",
+  "finger_5_2",
+  "finger_L_1",
+  "finger_L_2",
+  "finger_L_3",
+  "finger_L_4",
+  "finger_L_5",
+  "finger_R_1",
+  "finger_R_2",
+  "finger_R_3",
+  "finger_R_4",
+  "finger_R_5",
+  "foot_L",
+  "foot_R",
+  "green_bead",
+  "hair_L",
+  "hair_M_1",
+  "hair_M_2",
+  "hair_M_3",
+  "hair_M_4",
+  "hair_R",
+  "hair_R_back",
+  "hair_acc",
+  "hair_acc_fur",
+  "hair_side_L_1",
+  "hair_side_L_2",
+  "hair_side_R_1",
+  "hair_side_R_2",
+  "hairpin",
+  "hand_L",
+  "hand_R",
+  "hat_1",
+  "hat_2",
+  "hat_3",
+  "hat_4",
+  "hat_shadow",
+  "horn_L",
+  "horn_R",
+  "leg_R_upper",
+  "leg_lower_L",
+  "leg_lower_R",
+  "leg_upper_L",
+  "man",
+  "mouth_B_down",
+  "mouth_B_teeth",
+  "mouth_B_tongue",
+  "mouth_B_up",
+  "mouth_C_down",
+  "mouth_C_teeth",
+  "mouth_C_tongue",
+  "mouth_C_up",
+  "mouth_banter",
+  "mouth_impish",
+  "mouth_impish_down",
+  "mouth_impish_up",
+  "mouth_passion",
+  "mouth_surprise",
+  "mouth_tender",
+  "neck",
+  "neck_shadow",
+  "nose",
+  "pelvis",
+  "pelvis_talisman",
+  "prop_bed",
+  "prop_curtain_1",
+  "prop_curtain_2",
+  "prop_gate",
+  "prop_lantern_1_01",
+  "prop_lantern_1_02",
+  "prop_lantern_1_03",
+  "prop_lantern_1_04",
+  "prop_lantern_1_05",
+  "prop_lantern_1_06",
+  "prop_lantern_1_07",
+  "prop_lantern_1_08",
+  "prop_lantern_1_09",
+  "prop_lantern_1_10",
+  "prop_lantern_1_11",
+  "prop_lantern_1_12",
+  "prop_lantern_1_13",
+  "prop_lantern_1_14",
+  "prop_lantern_1_15",
+  "prop_lantern_1_16",
+  "prop_lantern_1_17",
+  "prop_lantern_1_18",
+  "prop_lantern_2_01",
+  "prop_lantern_2_02",
+  "prop_lantern_2_03",
+  "prop_lantern_2_04",
+  "prop_lantern_3_01",
+  "prop_lantern_3_02",
+  "prop_lantern_3_03",
+  "prop_lantern_3_04",
+  "prop_lantern_3_05",
+  "prop_railing",
+  "prop_vase_1",
+  "prop_vase_2",
+  "prop_vase_3",
+  "solid_32",
+  "strab_1",
+  "strab_2",
+  "talisman_L_UNCEN",
+  "talisman_R_UNCEN"
+ ],
+ "censorship": {
+  "uncensored": [
+   "breast_nipple_L_UNCEN",
+   "breast_nipple_R_UNCEN",
+   "talisman_L_UNCEN",
+   "talisman_R_UNCEN"
+  ],
+  "censored": []
+ },
+ "actor": {
+  "idle": "basic/idle_01",
+  "boring": null,
+  "active": "basic/idle_01_touch",
+  "faceBone": null,
+  "mouthBone": null,
+  "heightType": null,
+  "actorType": 2,
+  "pivot": null,
+  "phases": [
+   {
+    "idle": "basic/idle_01",
+    "boring": null,
+    "active": "basic/idle_01_touch"
+   },
+   {
+    "idle": "basic/idle_02",
+    "boring": null,
+    "active": "basic/idle_02_touch"
+   }
+  ],
+  "volumeProfiles": []
+ },
+ "sequences": [],
+ "touch": {
+  "boxes": [
+   "bd_breast_L",
+   "bd_breast_R",
+   "bd_breast_R2",
+   "bd_ch",
+   "bd_leg_L",
+   "bd_leg_R",
+   "bd_vagina"
+  ],
+  "jigglers": [],
+  "regions": [
+   {
+    "box": "bd_breast_L",
+    "code": "breast",
+    "side": "L",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_breast_R",
+    "code": "breast",
+    "side": "R",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_breast_R2",
+    "code": "breast_R2",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_ch",
+    "code": "ch",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_leg_L",
+    "code": "leg",
+    "side": "L",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_leg_R",
+    "code": "leg",
+    "side": "R",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_vagina",
+    "code": "vagina",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   }
+  ],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 100.0,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -1448471105419328718
+    },
+    "samples": [
+     {
+      "aspect": 1.0,
+      "position": {
+       "x": 0.0,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 0.8500000238418579
+     },
+     {
+      "aspect": 1.3333333730697632,
+      "position": {
+       "x": 0.0,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 1.149999976158142
+     },
+     {
+      "aspect": 1.600547194480896,
+      "position": {
+       "x": 0.0,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 1.2000000476837158
+     },
+     {
+      "aspect": 1.7781155109405518,
+      "position": {
+       "x": 0.0,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 1.2999999523162842
+     },
+     {
+      "aspect": 2.1666667461395264,
+      "position": {
+       "x": 0.0,
+       "y": -50.0
+      },
+      "rotation": 0.0,
+      "scale": 1.350000023841858
+     },
+     {
+      "aspect": 2.777777671813965,
+      "position": {
+       "x": 0.0,
+       "y": -50.0
+      },
+      "rotation": -15.130000114440918,
+      "scale": 1.2999999523162842
+     }
+    ]
+   }
+  ],
+  "camera": {
+   "verticalFov": 60.0,
+   "nearClip": 0.009999999776482582,
+   "farClip": 100000.0
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureCutsceneSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "overlay": {
+     "texture": "postprocess_overlay_Silhouette.png",
+     "source": "Silhouette"
+    },
+    "background": {
+     "texture": "postprocess_background_white.png",
+     "source": "white"
+    }
+   }
+  ],
+  "bg": {
+   "name": "AF_CH0069_bg",
+   "tex": "AF_CH0069_bg.png",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 48.0,
+   "h": 30.0
+  },
+  "backgrounds": [
+   {
+    "name": "AF_CH0069_bg",
+    "tex": "AF_CH0069_bg.png",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 48.0,
+    "h": 30.0
+   }
+  ]
+ }
+}
