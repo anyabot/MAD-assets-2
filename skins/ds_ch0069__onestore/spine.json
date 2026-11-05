@@ -19,8 +19,10 @@
   "10_reaction/10_A1_2",
   "10_reaction/10_A2",
   "10_reaction/10_A2_2",
+  "10_reaction/10_A2_copy",
   "10_reaction/10_A3",
   "10_reaction/10_A3_2",
+  "10_reaction/10_A3_copy",
   "10_reaction/10_A4",
   "10_reaction/10_H1",
   "30_overlay/30_B1",
@@ -47,8 +49,10 @@
    "10_reaction/10_A1_2",
    "10_reaction/10_A2",
    "10_reaction/10_A2_2",
+   "10_reaction/10_A2_copy",
    "10_reaction/10_A3",
    "10_reaction/10_A3_2",
+   "10_reaction/10_A3_copy",
    "10_reaction/10_A4",
    "10_reaction/10_H1"
   ],
@@ -69,7 +73,7 @@
   "default"
  ],
  "spineVersion": "4.2.37",
- "skeletonHash": "383474e1-aa680a5",
+ "skeletonHash": "1cffd6ca211691cc",
  "bounds": {
   "x": -2574.875,
   "y": -1437.6304,
